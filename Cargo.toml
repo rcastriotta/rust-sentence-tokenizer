@@ -1,0 +1,14 @@
+[package]
+name            = "punkt"
+version         = "1.0.0"
+keywords        = ["punkt", "sentence", "token", "tokenizer"]
+description     = "An implementation of a Punkt sentence tokenizer"
+
+[dependencies]
+num             = "0.4"
+phf             = { version = "0.11", features = ["macros"] }
+rustc-serialize = "0.3"
+rust-freqdist   = "0.1"
+
+[dev-dependencies]
+walkdir         = "2.5"
